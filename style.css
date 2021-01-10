@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-width: 80vh;
+    background-color: black;
+}
+.container{
+    justify-content: center;
+    background-color: rgb(51, 177, 20);
+    height:300PX;
+    width: 400px;
+    border-radius: 30px;
+    border-style: outset;
+    border-top-color: blueviolet;
+    border-top-left-radius: 0;
+    border-left-color: red;
+    border-bottom-right-radius: 0%;
+    padding: 50px; 
+    padding-left: 70px;   
+    padding-top: 0%;
+    position: static;
+    margin: 30px;
+
+}
+h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#getQuote{
+     color: white;
+    font-size: 20px;
+    font-family: monospace;
+
+    
+}
+button{
+    padding: 5px;
+    width: 100px;
+    margin-left: 70px;
+    border-radius: 60px;
+    border-color:blueviolet;
+    outline: none;
+    position: fixed;
+    bottom: 340px;
+}
+button:hover{
+    background-color: palevioletred;
+}
+p {
+    font-family:serif; 
+    font-size: 16px;
+    color: white;
+    position: fixed;
+    bottom: 300px;
+}
+p:hover{
+    color:black;
+}
+
+
